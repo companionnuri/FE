@@ -28,6 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -52,7 +53,7 @@
     ]
   },
   "proxy": "http://localhost:3000",
-  "homepage": "http://companionnuri.github.io/FE",
+  "homepage": "http://companionnuri.github.io/FE/",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
