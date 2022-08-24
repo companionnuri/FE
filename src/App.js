@@ -17,7 +17,7 @@ import Searchmain from "./Searchmain";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Info />} />
         <Route path="/Main" element={<Main />} />
