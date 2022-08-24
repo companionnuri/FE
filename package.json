@@ -52,7 +52,7 @@
     ]
   },
   "proxy": "http://localhost:3000",
-  "homepage": "http://companionnuri.github.io/companionnuri",
+  "homepage": "http://companionnuri.github.io/companionnuri.github.io",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
