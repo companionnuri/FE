@@ -1,0 +1,47 @@
+.SearchContentTit {
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+  color: rgb(95, 39, 205);
+
+}
+
+.categoryLabel {
+  color:#F3887C;
+  margin: 0;
+  margin-right:3px;
+  letter-spacing: -0.2px;
+  width:65px;
+}
+.SearchContentAddrBox {
+  display:flex;
+  margin-bottom: 5px;
+}
+.SearchContentAddrBox i {
+  margin-top: 4px;
+  margin-right: 6px;
+  color: #A4A4A4;
+}
+.SearchContentTitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.SearchContentAddr {
+  margin-bottom: 0px;
+}
+.SearchContentRaddr {}
+.SearchContentTelBox {
+  display:flex;
+  align-items:center;
+}
+.SearchContentTelBox i {
+  margin-right: 6px;
+  color: #A4A4A4;
+}
+.SearchContentTel {
+  margin-bottom: 0px;
+}
