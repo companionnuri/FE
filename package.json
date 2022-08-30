@@ -1,6 +1,7 @@
 {
   "name": "companionnuri",
   "version": "0.1.0",
+  "homepage": "https://companionnuri.github.io/FE",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -52,6 +53,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3000",
-  "homepage": "https://companionnuri.github.io/FE"
+  "proxy": "http://localhost:3000"
 }
