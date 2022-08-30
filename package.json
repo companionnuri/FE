@@ -53,5 +53,5 @@
     ]
   },
   "proxy": "http://localhost:3000",
-  "homepage": "http://companionnuri.github.io/FE"
+  "homepage": "http://companionnuri.github.io/FE/"
 }
