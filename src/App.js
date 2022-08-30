@@ -19,20 +19,44 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Info />} />
-        <Route path="/Main" element={<Main />} />
-        <Route path="/Cafemain" element={<Cafemain />} />
-        <Route path="/Foodmain" element={<Foodmain />} />
-        <Route path="/Housemain" element={<Housemain />} />
-        <Route path="/Hospitalmain" element={<Hospitalmain />} />
-        <Route path="/Parkmain" element={<Parkmain />} />
-        <Route path="/Regionmain" element={<Regionmain />} />
-        <Route path="/Searchmain" element={<Searchmain />} />
-        <Route path="/Region" element={<Region />} />
-        <Route path="/Detail" element={<Detail />} />
-        <Route path="/Info" element={<Info />} />
-        <Route path="/Category" element={<Category />} />
-        <Route path="/Search" element={<Search />} />
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Info />} />
+        <Route path={`${process.env.PUBLIC_URL}/Main`} element={<Main />} />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Cafemain`}
+          element={<Cafemain />}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Foodmain`}
+          element={<Foodmain />}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Housemain`}
+          element={<Housemain />}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Hospitalmain`}
+          element={<Hospitalmain />}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Parkmain`}
+          element={<Parkmain />}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Regionmain`}
+          element={<Regionmain />}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Searchmain`}
+          element={<Searchmain />}
+        />
+        <Route path={`${process.env.PUBLIC_URL}/Region`} element={<Region />} />
+        <Route path={`${process.env.PUBLIC_URL}/Detail`} element={<Detail />} />
+        <Route path={`${process.env.PUBLIC_URL}/Info`} element={<Info />} />
+        <Route
+          path={`${process.env.PUBLIC_URL}/Category`}
+          element={<Category />}
+        />
+        <Route path={`${process.env.PUBLIC_URL}/Search`} element={<Search />} />
       </Routes>
     </Router>
   );
