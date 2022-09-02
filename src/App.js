@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Main from "./Main";
 import Region from "./Region";
@@ -17,10 +17,12 @@ import Searchmain from "./Searchmain";
 
 function App() {
   return (
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
+    // <Routes>
     <Router>
       <Routes>
-        <Route path="/" element={<Info />} />
-        <Route path="/Main" element={<Main />} />
+        <Route exact path="/" element={<Info />} />
+        <Route exact path="/Main" element={<Main />} />
         <Route path="/Cafemain" element={<Cafemain />} />
         <Route path="/Foodmain" element={<Foodmain />} />
         <Route path="/Housemain" element={<Housemain />} />
@@ -33,6 +35,8 @@ function App() {
         <Route path="/Info" element={<Info />} />
         <Route path="/Category" element={<Category />} />
         <Route path="/Search" element={<Search />} />
+        {/* </Routes> */}
+        {/* </BrowserRouter> */}
       </Routes>
     </Router>
   );
