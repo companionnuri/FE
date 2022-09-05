@@ -15,8 +15,6 @@ import Parkmain from "./Parkmain";
 import Regionmain from "./Regionmain";
 import Searchmain from "./Searchmain";
 
-
-
 function App() {
   return (
     // <BrowserRouter basename={process.env.PUBLIC_URL}>
